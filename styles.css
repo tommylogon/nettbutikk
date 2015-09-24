@@ -109,3 +109,8 @@ aside{
 	float:right;
 	position:relative;
 }
+#handlekurv img{
+	width:40px;
+	top:40px;
+	margin-top:20px;
+}
