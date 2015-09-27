@@ -66,6 +66,9 @@
     background:#333;
 }
 /*---header---*/
+body{
+	height:1000px;
+}
 header{
 	background-color:red;
 	width:100%;
@@ -74,14 +77,14 @@ header{
 section{
 	background-color:green;
 	clear:both;
-	height:800px;
+	height:80%;
 	width:100%;
 }
 article{
 	background-color:yellow;
 	float:left;
 	width:50%;
-	height:400px;
+	
 	position:relative;
 	left:200px;
 	top:150px;
@@ -90,7 +93,7 @@ aside{
 	background-color:blue;
 	float:right;
 	width:150px;
-	height:500px;
+	height:40%;
 }
 #asidebar li{
 	border:3px solid black;
@@ -105,7 +108,7 @@ aside{
 #handlekurv{
 	background:pink;
 	width:300px;
-	height:60px;
+	height:auto;
 	float:right;
 	position:relative;
 }
@@ -121,7 +124,12 @@ aside{
 }
 .prodHold{
 	margin:2px;
-	height:100px;
+	
 	width:200px;
 	float:left;
+}
+footer{
+	background-color:orange;
+	height:10%;
+	width:100%;
 }
