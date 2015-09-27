@@ -114,3 +114,14 @@ aside{
 	top:40px;
 	margin-top:20px;
 }
+.products{
+	width:200px;
+	margin:1px;
+	float:left;
+}
+.prodHold{
+	margin:2px;
+	height:100px;
+	width:200px;
+	float:left;
+}
