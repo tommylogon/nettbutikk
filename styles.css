@@ -90,6 +90,7 @@ section{
 	width:100%;
 }
 article{
+    margin: 20px;
 	background-color:yellow;
 	float:left;
 	width:70%;
@@ -98,12 +99,14 @@ article{
 	top:150px;
 }
 aside{
+    margin: 20px;
 	background-color:blue;
 	float:right;
 	width:150px;
 	height:40%;
 }
 #asidebar li{
+    margin:2px;
 	border:3px solid black;
 	border-radius:1px;
 	background-color:lightgreen;
@@ -126,13 +129,13 @@ aside{
 	margin-top:20px;
 }
 .products{
-    padding: 30px;
+   
 	width:200px;
-	margin:10px;
+	margin:1px;
 	float:left;
 }
 .prodHold{
-	margin:2px;
+	margin:20px;
 	
 	width:200px;
 	float:left;
