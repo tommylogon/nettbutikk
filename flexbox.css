@@ -60,6 +60,7 @@ body{
     justify-content: flex-start;
     align-content: flex-start;
     align-items: stretch;
+	background:black;
 }
 header{
 	background-color:red;
@@ -79,7 +80,7 @@ section{
     flex-basis: 200px;
 	display:flex;
 	padding-top:40px;
-	padding-bottom:40px;
+	padding-bottom:180px;
 	flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -89,8 +90,7 @@ section{
 article{
 	background-color:yellow;
 	float:left;
-	height:400px;
-	flex-grow: 1;
+	flex-grow: 3;
     flex-shrink: 0;
     flex-basis: 200px;
 	margin-right:60px;
