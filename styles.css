@@ -16,7 +16,6 @@
 	padding-top:3px;
     float:left; /* Clear floats */
     width:95%;
-	background:lightblue;
     /* Bring the nav above everything else--uncomment if needed.
     position:relative;
     z-index:5;
@@ -110,9 +109,10 @@ aside{
 }
 
 #handlekurv{
-	background:pink;
 	width:250px;
 	height:auto;
+	right:0px;
+	top:0px;
 	float:right;
 	position:relative;
 }
