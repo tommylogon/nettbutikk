@@ -4,5 +4,6 @@
 		document.getElementById("kjop").onclick = addToCheckout;
 	}
 	function addToCheckout(){
-			alert("du har kjøpt en pc")
+			alert("du har kjøpt en pc");
+			window.location = "../../checkout/checkout.html"
 	}
