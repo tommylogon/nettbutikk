@@ -1,10 +1,13 @@
 	window.onload = start;
 	
 	function start(){
-		document.getElementById("btnKjop").onclick = addToCheckout;
+		if(window.location == "acer.html"){
+			document.getElementById("btnKjop").onclick = addToCheckout;
+			
+		}
+		if(window.location == "checkout.html")
 		document.getElementById("checkout").onclick = payAndDelivery;
 	}
-	var prdnmr = document.getElementById("btnKjop").value;
 	function addToCheckout(){
 			alert("du har kjøpt en pc");
 			
@@ -13,4 +16,7 @@
 	}
 	function valuesToCheckout(){
 		document.getElementById("prdNum1").value= prdnmr;
+	}
+	function payAndDelivery(){
+		alert("du har kjøpt " + prdnmr + " og den forventes levert imorgen");
 	}
