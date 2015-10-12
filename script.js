@@ -10,7 +10,8 @@
 
 	}
 	function addToCheckout(){
-			alert("du har kjøpt en pc");
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har lagt til produkt " + prodnum);
 			
 			window.location = "../../checkout/checkout.html"
 			valuesToCheckout();
