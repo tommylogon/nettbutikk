@@ -1,3 +1,4 @@
+@media only screen and (min-device-width: 1001px) {
 *{
     margin: 0;
     padding: 0;
@@ -122,7 +123,7 @@ aside{
 
 
 
-}
+
 
 #handlekurv{
 	width: 250px;
@@ -191,4 +192,5 @@ footer{
 
 .prodside{
     width:95%;
+}
 }
