@@ -160,6 +160,22 @@ footer{
 	
 }
 
+
+
+
+.prodbilde{
+    float: left;
+    width: 400px;
+
+}
+
+
+
+.minbilde{
+    float: left;
+    width: 400px;
+
+}
 #prodinfo{
     padding:10px;
     box-shadow: 1px 1px 5px black;
@@ -171,19 +187,6 @@ footer{
 	height: auto;
 
 
-
-}
-
-
-.prodbilde{
-    float: left;
-    width: 400px;
-
-}
-
-.minbilde{
-    float: left;
-    width: 400px;
 
 }
 
