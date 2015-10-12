@@ -160,23 +160,33 @@ footer{
 	
 }
 
-.prodinfo{
+
+
+
+.prodbilde{
+    float: left;
+    width: 400px;
+
+}
+
+
+
+.minbilde{
+    float: left;
+    width: 400px;
+
+}
+#prodinfo{
     padding:10px;
     box-shadow: 1px 1px 5px black;
     border: 1px solid black;
     margin: 20px;
 	background-color:white;
-    float: left;
-	width:21%;
+    float:left;
+    width: 280px;
 	height: auto;
 
 
-
-}
-
-
-.prodbilde{
-width: 400px;
 
 }
 
