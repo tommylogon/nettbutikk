@@ -15,7 +15,7 @@
 	margin-top:0px;
 	padding-top:3px;
     float:left; 
-    width:155px;
+    width:165px;
     box-shadow: 1px 1px 7px black;
     background-color: lightslategray;
     border: 1px solid black;
@@ -24,7 +24,7 @@
 #nav li{
     padding: 10px;
     float:left;
-    margin-right:40px;
+    margin-right:5px;
     position:relative;
 }
 #nav a{
@@ -81,7 +81,7 @@ h3 {
 }
 section{
 	height:auto;
-	width:600px;
+	width:550px;
     float:right;
 }
 article{
@@ -101,7 +101,7 @@ aside{
     margin: 20px;
 	background-color:white;
     float: left;
-	width:21%;
+	width:63%;
 	height: auto;
 }
 #asidebar li{
@@ -126,7 +126,7 @@ aside{
 	top:40px;
 	margin-top:20px;
 }
-
+}
 .products{
    
 	width:auto;
@@ -144,8 +144,10 @@ aside{
 }
 footer{
 
-	background-color:orange;
-	height:20px;
-	width:100%;
+  margin: auto;
+    padding: 8px;
+    text-align: center;
     clear:both;
+	background-color: lightslategray;
+	height:20px;
 }
