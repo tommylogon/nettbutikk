@@ -5,8 +5,11 @@
 			document.getElementById("btnKjop").onclick = addToCheckout;
 			
 		}
-		if(window.location == "checkout.html")
-		document.getElementById("checkout").onclick = payAndDelivery;
+		if(window.location == "checkout.html"){
+				document.getElementById("checkout").onclick = payAndDelivery;
+			
+		}
+
 	}
 	function addToCheckout(){
 			alert("du har kjøpt en pc");
@@ -18,5 +21,5 @@
 		document.getElementById("prdNum1").value= prdnmr;
 	}
 	function payAndDelivery(){
-		alert("du har kjøpt " + prdnmr + " og den forventes levert imorgen");
+		alert("du har kjøpt **** og den forventes levert imorgen");
 	}
