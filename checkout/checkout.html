@@ -4,8 +4,16 @@
 		<title>Nettbutikk Checkout</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<script src="../script.js"></script>
 	<body>
-		<header><img src="logo-nettbutikk.jpg" alt="" width="150px"></header>
+
+		<header>
+            <a href="index.html">
+                <img id="nettlogo" src="../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+
 		<nav>
 			<ul id="nav">
 				
@@ -36,7 +44,7 @@
                 
 
 				<div id="handlekurv">
-					<img src="Handlevogn.JPG" alt="handlekurv"/>
+					<img src="../Handlevogn.JPG" alt="handlekurv" width="50px"/>
 			    </div>
 
 			</ul>
@@ -49,16 +57,16 @@
                 <form>
                     
                     Produkt nummer:<br>
-                    <input type="number" name="Produkt nr">
+                    <input type="number" name="Produkt nr" id="prdNum1">
                     <br>
                     Produkt nummer:<br>
-                    <input type="number" name="Produkt nr">
+                    <input type="number" name="Produkt nr" id="prdNum2">
                     <br>
                     Produkt nummer:<br>
-                    <input type="number" name="Produkt nr">
+                    <input type="number" name="Produkt nr" id="prdNum3">
                     <br>
                     Produkt nummer:<br>
-                    <input type="number" name="Produkt nr">
+                    <input type="number" name="Produkt nr" id="prdNum4">
                     <br><br>
                     <p>Personopplysninger:</p>
                     Navn:<br>
@@ -79,8 +87,12 @@
                     <br>
                     Sikerhetskode:<br>
                     <input type="number" name="Sikkerhetskode">
+
                     <br>
-                    <button type="button">Check out</button><br>
+                    <button type="button" id="checkout">Check out</button><br>
+                    <br><br>
+                    <button type="button">Check out</button><br><br>
+
                            
                 </form>
 				
