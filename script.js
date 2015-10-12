@@ -5,10 +5,8 @@
 			document.getElementById("btnKjop").onclick = addToCheckout;
 			
 		}
-		if(window.location == "checkout.html"){
 				document.getElementById("checkout").onclick = payAndDelivery;
 			
-		}
 
 	}
 	function addToCheckout(){
@@ -21,5 +19,5 @@
 		document.getElementById("prdNum1").value= prdnmr;
 	}
 	function payAndDelivery(){
-		alert("du har kjøpt **** og den forventes levert imorgen");
+		alert("du har kjøpt " + document.getElementById("prdNum1").value + " og den forventes levert imorgen");
 	}
