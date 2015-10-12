@@ -90,6 +90,8 @@ section{
 	height:80%;
 	width:100%;
 }
+
+
 article{
     border: 1px solid black;
     box-shadow: 1px 1px 5px black;
@@ -101,6 +103,12 @@ article{
 	top:150px;
     margin-bottom: 150px;
 }
+
+
+
+
+
+
 aside{
     padding:10px;
     box-shadow: 1px 1px 5px black;
@@ -152,9 +160,23 @@ footer{
 	
 }
 
+.prodinfo{
+    padding:10px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    margin: 20px;
+	background-color:white;
+    float: left;
+	width:21%;
+	height: auto;
+
+
+
+}
+
 
 .prodbilde{
-width: 500px;
+width: 400px;
 
 }
 
