@@ -6,7 +6,18 @@
 		<title>Nettbutikk</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="../../styles.css">
-		<script src="../../script.js"></script> 
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
 	</head>
 	
     
@@ -92,9 +103,7 @@
                 
                 <img class="minbilde" src="raw/acer2.JPG">
                 
-                <form METHOD="LINK" ACTION="../../checkout/checkout.html">
 				 <button id="btnKjop" value="1358">Kjøp</button>
-				</form>
                 
                 
                
