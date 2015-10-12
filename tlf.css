@@ -15,7 +15,7 @@
 	margin-top:0px;
 	padding-top:3px;
     float:left; 
-    width:165px;
+    width:205px;
     box-shadow: 1px 1px 7px black;
     background-color: lightslategray;
     border: 1px solid black;
@@ -33,7 +33,7 @@
     color:#fff;
     background-color: black;
     text-decoration:none;
-    width:140px;
+    width:170px;
     height:40px;
 }
 #nav a:Hover{
@@ -62,7 +62,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', end
     box-shadow: 1px 1px 5px black;
     padding: 5px;
     border: solid 1px;
-    margin: 30px;
+    margin: 20px;
+    margin-left: 350px;
     background-color: white;
 }
 
@@ -81,7 +82,7 @@ h3 {
 }
 section{
 	height:auto;
-	width:550px;
+	width:750px;
     float:right;
 }
 article{
@@ -90,7 +91,7 @@ article{
     border: 1px solid black;
     box-shadow: 1px 1px 5px black;
 	float:left;
-	width:400px;
+	width:700px;
 	left:50px;
 	top:150px;
 }
@@ -126,18 +127,18 @@ aside{
 	top:40px;
 	margin-top:20px;
 }
-}
+
 .products{
    
-	width:auto;
+	width:500px;
     height:auto;
-	margin:1px;
-	float:right;
+	margin-left: auto;
+    margin-right: auto;
 }
 .prodHold{
 	margin:20px;
-	height: 200;
-	width:350px;
+	height: 450px;
+	width:500px;
 	float:left;
     box-shadow: 2px 2px 7px grey;
     border: 2px solid black;
