@@ -133,13 +133,12 @@ aside{
 	position: relative;
 }
 
+
+.products {
+	width: 200px;
+    margin: 1px;
 }
-.products{
-   height: 100px;
-	width:200px;
-	margin:1px;
-	float:left;
-}
+
 .prodHold{
     height: 220px;
     width: 5px;
