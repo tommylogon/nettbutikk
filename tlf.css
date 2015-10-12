@@ -14,15 +14,15 @@
     margin-bottom:1px;
 	margin-top:0px;
 	padding-top:3px;
-    float:left; /* Clear floats */
+    float:left; 
     width:155px;
-	background:lightblue;
-    /* Bring the nav above everything else--uncomment if needed.
-    position:relative;
-    z-index:5;
-    */
+    box-shadow: 1px 1px 7px black;
+    background-color: lightslategray;
+    border: 1px solid black;
+
 }
 #nav li{
+    padding: 10px;
     float:left;
     margin-right:40px;
     position:relative;
@@ -31,49 +31,78 @@
     display:block;
     padding:5px;
     color:#fff;
-    background:#333;
+    background-color: black;
     text-decoration:none;
     width:140px;
     height:40px;
 }
 #nav a:Hover{
     color:#fff;
-    background:#6b0c36;
+   background-color: darkslategrey;
     text-decoration:underline;
 }
 body {
-    
-    width: 900px;
+    width: 800px;
     height: auto;
     border: solid 2px black;
+        
+background: rgb(221,221,221); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(221,221,221,1) 0%, rgba(223,223,223,1) 12%, rgba(226,226,226,1) 25%, rgba(220,220,220,1) 39%, rgba(215,215,215,1) 50%, rgba(207,207,207,1) 51%, rgba(210,210,210,1) 60%, rgba(215,215,215,1) 76%, rgba(212,212,212,1) 91%, rgba(210,210,210,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(221,221,221,1)), color-stop(12%,rgba(223,223,223,1)), color-stop(25%,rgba(226,226,226,1)), color-stop(39%,rgba(220,220,220,1)), color-stop(50%,rgba(215,215,215,1)), color-stop(51%,rgba(207,207,207,1)), color-stop(60%,rgba(210,210,210,1)), color-stop(76%,rgba(215,215,215,1)), color-stop(91%,rgba(212,212,212,1)), color-stop(100%,rgba(210,210,210,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(223,223,223,1) 12%,rgba(226,226,226,1) 25%,rgba(220,220,220,1) 39%,rgba(215,215,215,1) 50%,rgba(207,207,207,1) 51%,rgba(210,210,210,1) 60%,rgba(215,215,215,1) 76%,rgba(212,212,212,1) 91%,rgba(210,210,210,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(223,223,223,1) 12%,rgba(226,226,226,1) 25%,rgba(220,220,220,1) 39%,rgba(215,215,215,1) 50%,rgba(207,207,207,1) 51%,rgba(210,210,210,1) 60%,rgba(215,215,215,1) 76%,rgba(212,212,212,1) 91%,rgba(210,210,210,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(223,223,223,1) 12%,rgba(226,226,226,1) 25%,rgba(220,220,220,1) 39%,rgba(215,215,215,1) 50%,rgba(207,207,207,1) 51%,rgba(210,210,210,1) 60%,rgba(215,215,215,1) 76%,rgba(212,212,212,1) 91%,rgba(210,210,210,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(221,221,221,1) 0%,rgba(223,223,223,1) 12%,rgba(226,226,226,1) 25%,rgba(220,220,220,1) 39%,rgba(215,215,215,1) 50%,rgba(207,207,207,1) 51%,rgba(210,210,210,1) 60%,rgba(215,215,215,1) 76%,rgba(212,212,212,1) 91%,rgba(210,210,210,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#d2d2d2',GradientType=0 ); /* IE6-9 */
+
+
 }
 
-header{
-	background-color:red;
-	width:500px;
-	height:90px;
+#nettlogo{
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+    border: solid 1px;
+    margin: 30px;
+    background-color: white;
+}
+
+
+h2 {
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+h3 {
+    color: grey;
+    padding-left: 20px;
+    margin: auto;
 }
 section{
-	background-color:green;
-	clear:both;
-	height:80%;
-	width:100%;
+	height:auto;
+	width:600px;
+    float:right;
 }
 article{
     margin: 20px;
-	background-color:yellow;
+	background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
 	float:left;
-	width:700px;
-
+	width:400px;
 	left:50px;
 	top:150px;
 }
 aside{
+ padding:10px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
     margin: 20px;
-	background-color:blue;
-	float:right;
-	width:150px;
-	height:40%;
+	background-color:white;
+    float: left;
+	width:21%;
+	height: auto;
 }
 #asidebar li{
     margin:2px;
@@ -97,7 +126,7 @@ aside{
 	top:40px;
 	margin-top:20px;
 }
-}
+
 .products{
    
 	width:auto;
@@ -108,12 +137,15 @@ aside{
 .prodHold{
 	margin:20px;
 	height: 200;
-	width:250px;
+	width:350px;
 	float:left;
+    box-shadow: 2px 2px 7px grey;
+    border: 2px solid black;
 }
 footer{
 
 	background-color:orange;
 	height:20px;
 	width:100%;
+    clear:both;
 }
