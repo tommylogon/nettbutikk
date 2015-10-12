@@ -162,18 +162,23 @@ footer{
 
 
 
-
 .prodbilde{
     float: left;
-    width: 400px;
+    width: 300px;
 
 }
 
+#prodbilder{
+	padding: 1px;
+	margin:1px;
+	float:left;
+}
 
 
 .minbilde{
     float: left;
-    width: 400px;
+    width: 300px;
+	clear:both;
 
 }
 #prodinfo{
@@ -182,7 +187,7 @@ footer{
     border: 1px solid black;
     margin: 20px;
 	background-color: white;
-    float: left;
+    float: right;
     width: 280px;
 	height: auto;
 
