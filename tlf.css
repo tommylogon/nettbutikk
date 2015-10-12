@@ -152,4 +152,14 @@ footer{
 	background-color: lightslategray;
 	height:20px;
 }
+.prodbilde{
+    float: left;
+    width: 400px;
+
+}
+.minbilde{
+    float: left;
+    width: 400px;
+
+}
 }
