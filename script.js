@@ -13,11 +13,12 @@
 			prodnum= document.getElementById("btnKjop").value;
 			alert("du har lagt til produkt " + prodnum);
 			
-			window.location = "../../checkout/checkout.html"
+			
 			valuesToCheckout();
 	}
 	function valuesToCheckout(){
 		document.getElementById("prdNum1").value= prdnmr;
+		window.location = "../../checkout/checkout.html";
 	}
 	function payAndDelivery(){
 		alert("du har kjøpt " + document.getElementById("prdNum1").value + " og den forventes levert imorgen");
