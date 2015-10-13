@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>Whirlpool AWE7730 vaskemaskin Toppmatet</h2>
+                <h3>5,5 Kg, 1200 o/min, A+, Hurtigvask, 6 TH SENSE</h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="Whirlpool.JPG"/>
+                
+                				 
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt">SPARER RESSURSER 
+6 TH SENSE tekonologien føler
+mengde tøy, og tilpasser
+automatisk ressursbruken
+deretter, noe som medfører at du kan spare
+opp til 30% ** strøm, tid og vann.<br><br>
+
+
+DESIGN OG ERGONOMI MED 
+ET STREIF AV FORSKJELL 
+Whirlpools toppmatede vaskemaskiner
+kombinerer eleganse og funksjonalitet i et
+design, som vil passe i ethvert hjem. 40 cm
+bredde og med en kapasitet på opp til 6 kg ; en
+toppmatet vaskemaskin som er den perfekte
+løsning til et mindre lokale som f.eks. en
+hybel eller et lite bad. Med en stor toppbetjent
+trommelåpning er det enkelt å legge i og ta ut
+av maskinen, uten at du behøver å bøye deg
+eller sitte på huk.</p>
+
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" value="1358">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>

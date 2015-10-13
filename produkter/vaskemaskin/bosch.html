@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>Bosch WAK28267SN vaskemaskin</h2>
+                <h3>Kapasitet: 7 kg, Energiklasse: A+++, Sentrifuge:1400 o/min, Outdoor program</h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="Bosch.JPG"/>
+                
+                				 
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt">Kapasitet: 7 kg, Energiklasse: A+++, Årlig energiforbruk 174 kWh, basert på 220 standardvaskesykluser for bomull 60°C og 40°C ved full og halv maskin, Maksimal sentrifugehastighet: 1400 o/min
+
+VarioPerfect™: sparer opptil 65 % tid eller 50 % energi. Velg selv med ett tastetrykk.<br>
+Energiklasse A+++: den mest energieffektive klassen.<br>
+WaveDrum™: vasker skånsomt, takket være trommelens spesielle struktur.<br>
+ActiveWater™: sparer vann og penger takket være den totrinns sensorstyrte mengdeautomatikken.<br>
+For deg med følsom hud eller allergi: ECARF-kvalitetsstempel.</p>
+                    <p class="prodTxt">Ytelse og forbruk
+Kapasitet: 7 kg<br>
+Energiklasse: A+++<br>
+Årlig energiforbruk 174 kWh, basert på 220 standardvaskesykluser for bomull 60°C og 40°C ved full og halv maskin.<br>
+Maksimal sentrifugehastighet: 1400 o/min</p>
+
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" value="1358">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>

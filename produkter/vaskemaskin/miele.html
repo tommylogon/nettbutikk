@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>Miele vask/tørk WT 2796 WPM 6KG</h2>
+                <h3>Energiklasse A, Lotushvit, 1.600RPM, Damp, Skånetrommel</h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="Miele.JPG"/>
+                
+                				 
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt">Mieles vask/tørk-kombinasjon kombinerer funksjonene til en vaskemaskin og en tørketrommel i en maskin. Dermed kan du vaske 6 kg og deretter tørke 3 kg tøy uten å flytte tøyet til en annen maskin.<br><br>
+
+Og når det haster kan det gjøres på 90 minutter. Perfekt hvis du har liten plass, eller bare vil montere en maskin. Maskinen er utstyr med et oversiktlig display, for enkel betjening, startforvalg inntil 24 timer og resttidsanvisning.<br><br>
+
+Du kan behandle opptil 22 flekktyper individuelt med vår flekktast. For å unngå nupper og uttrukne tråder er den dessuten utstyrt med Mieles patenterte skånetrommel mens funksjonene dampglatting og skjorter sørger for å glatte ut tøyet ved hjelp av damp.</p>
+
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" value="1358">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>
