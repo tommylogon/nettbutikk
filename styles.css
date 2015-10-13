@@ -190,12 +190,16 @@ footer{
     float: right;
     width: 280px;
 	height: auto;
-
-
-
 }
 
 .prodside{
     width:95%;
 }
+
+    
+    
+.prodTxt {
+    margin: 10px;
+
 }
+    
