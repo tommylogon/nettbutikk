@@ -70,7 +70,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', end
     background-color: white;
 }
 
-
 h2 {
     padding-top: 20px; 
     padding-left: 20px;
@@ -84,14 +83,12 @@ h3 {
     margin: auto;
 }
 
-
 section{
     margin-top: 100px; 
 	clear:both;
 	height:80%;
 	width:100%;
 }
-
 
 article{
     border: 1px solid black;
@@ -105,11 +102,6 @@ article{
     margin-bottom: 150px;
 }
 
-
-
-
-
-
 aside{
     padding:10px;
     box-shadow: 1px 1px 5px black;
@@ -121,10 +113,6 @@ aside{
 	height: auto;
 }
 
-
-
-
-
 #handlekurv{
 	width: 250px;
 	height: auto;
@@ -133,7 +121,6 @@ aside{
 	float: right;
 	position: relative;
 }
-
 
 .products {
 	width: 200px;
@@ -150,22 +137,19 @@ aside{
 	width:200px;
 	float:left;
 }
+    
 footer{ 
     margin: auto;
     padding: 8px;
     text-align: center;
     clear:both;
 	background-color: lightslategray;
-	height:20px;
-	
+	height:20px;	
 }
-
-
 
 .prodbilde{
     float: left;
     width: 300px;
-
 }
 
 #prodbilder{
@@ -174,13 +158,12 @@ footer{
 	float:left;
 }
 
-
 .minbilde{
     float: left;
     width: 300px;
 	clear:both;
-
 }
+    
 #prodinfo{
     padding:10px;
     box-shadow: 1px 1px 5px black;
@@ -195,11 +178,25 @@ footer{
 .prodside{
     width:95%;
 }
-
-    
-    
+ 
 .prodTxt {
     margin: 10px;
 
 }
     
+    .kjopKnapp{
+    background-color:slategrey;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+     box-shadow: 1px 1px 5px black;
+    }
