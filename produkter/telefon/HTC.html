@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>HTC one M8</h2>
+                <h3>Android 4.4 KitKat, 2600 mAh,1080 x 1920</h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="HTC.JPG"/>
+                
+               				 
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt"><br>
+                        The new model retains a similar design to the first generation HTC One, but features a larger, rounded chassis incorporating a 5-inch 1080p display, a quad-core Qualcomm Snapdragon 801 processor, a depth of field sensor which can be used to individually refocus and apply various effects to the foreground and background elements of photos taken with the device's camera, a higher resolution front camera, improvements to the device's front-facing stereo speakers, expandable storage, new gesture functionality, and a refreshed version of HTC's Sense software. In August 2014, HTC unveiled a software variant of the M8 running Windows Phone 8.1 instead of Android, aiming to adapt the operating system's experience to the device "[without] any compromises."[3]</p>
+
+                    <p class="prodTxt"><br>
+                        </p>
+
+                    <p class="prodTxt"><br>
+                      .</p>
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" class="kjopKnapp" value="1358">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>

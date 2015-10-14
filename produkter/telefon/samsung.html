@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>Doro Phoneeasy 624</h2>
+                <h3></h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="Doro.JPG"/>
+                
+               				 
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt">Gjør hverdagen til en vakker dag<br>
+                       The Samsung Galaxy S4 Mini is a Galaxy S4 look-alike with a smaller screen and less hardware muscle. The device comes with a 4.3″ Super AMOLED qHD display, a dual-core processor and the TW Nature UX 2.0 on top of Android 4.2.2.
+Read more at http://www.phonearena.com/phones/Samsung-Galaxy-S4-mini_id7788#wb5hlxzgH1Vlm1bf.99.</p>
+
+                    <p class="prodTxt"><br>
+                        </p>
+
+                    <p class="prodTxt"><br>
+                      </p>
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" class="kjopKnapp" value="1358">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>
