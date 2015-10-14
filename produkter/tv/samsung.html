@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	
+    
+    <head>
+		<title>Nettbutikk</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../tlf.css">
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<script>
+				window.onload = start;
+	
+	function start(){
+				document.getElementById("btnKjop").onclick = addToCheckout;
+	}
+	function addToCheckout(){
+			prodnum= document.getElementById("btnKjop").value;
+			alert("du har valgt produkt " + prodnum+ ", legg til dette nummeret på neste side");
+			window.location.assign("../../checkout/checkout.html");
+	}
+		</script> 
+	</head>
+	
+    
+    <body>
+
+        <header>
+            <a href="../../index.html">
+                <img id="nettlogo" src="../../logo-nettbutikk.jpg" alt="" width="300px">
+            </a>
+        
+        </header>
+		
+        <nav>
+			<ul id="nav">
+				
+                <li>
+					<a href="../../index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="../../produkter/data/data.html">Data</a>
+				</li>
+                
+				<li>
+					<a href="../../produkter/telefon/telefon.html">Telefon</a>
+				</li>
+
+                <li>
+					<a href="../../produkter/vaskemaskin/vaskemaskin.html">Hvitvarer</a>	
+                </li>
+				
+				<li>
+					<a href="../../produkter/tv/tv.html">TV</a>
+                </li>
+				
+                <li>
+					<a href="#">kontaktinformasjon</a>
+				</li>
+                
+			</ul>
+			
+		</nav>
+        
+        <section>
+			
+            
+            <article class="prodside">
+                <h2>Samsung 55" UHD LED Smart Tv UE55JU6465</h2>
+                <h3>Ultra-HD(4K), 400Hz CMR, 4xHDMI, DVB-T2/C/S2</h3>
+				<div id="prodbilder">
+                <img class="prodbilde" src="raw/samsung.JPG"/>
+                <img class="minbilde" src="raw/samsung2.jpg"/>
+                
+				</div>
+                <div id="prodinfo">
+                    <p class="prodTxt">Samsung Smart UHD 4K LED TV JU6465<br>
+					<ul id="asideinfo">
+						<li>Micro Dimming Pro finjusterer farge og kontrast</li>
+						<li>Ultra HD 4K gir fire ganger flere detaljer enn Full HD</li>
+						<li>Smart-TV med Tizen og Quad Core-prosessor</li>
+						<li>Energiklasse : A+</li>
+					</ul></p>
+
+                    <p class="prodTxt">Opplev detaljene med Ultra HD 4K <br>
+					Med fire ganger høyere oppløsning enn Full HD får du skarpe bilder med en utrolig detaljrikdom. Bli kjent med en TV fra Samsung som gir fantastiske bildeopplevelser. </p>
+
+                    <p class="prodTxt">En dypere bildeopplevelse <br>
+					Samsungs Contrast Enhancer gir liv til flate bilder og gir deg en 3D-lignende bildeopplevelse. Ved å benytte ulike nivåer av kontrastforsterkning på ulike områder og objekter på skjermen, får du en mektigere dybdefølelse i bildene. Dype daler og høye fjelltopper oppleves enda mer svimlende.</p>
+                    
+                    <p class="prodTxt">Bedre optimering for fantastisk bildekvalitet <br>
+					Svart vises som svart. Og hvitt som hvitt. Takket være Samsungs Dimming-teknologi blir kontrasten i bildet vanskelig å overgå. Med Micro Dimming Pro skjer bildeanalyse og kontrastforbedring i opptil dobbelt så mange bildeblokker som i vanlig Micro Dimming. Opplev levende farger og naturtro bilder. </p>
+                    
+                </div>
+                
+                
+
+                <br/>
+				 <button id="btnKjop" class="kjopKnapp" value="1359">Kjøp</button>
+                
+                
+               
+            </article>
+    
+   
+		
+		</section>
+		
+		<footer>Laget av Tommy J, Tommy S, Mathias og Andreas</footer>
+	</body>
+</html>
